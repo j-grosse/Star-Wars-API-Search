@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">  
+<head>    
+  <meta charset="UTF-8">   
+  <meta name="viewport" content="width=device-width, initial-      scale=1.0">    
+  <title>Search the Star Wars API</title>      
+  <link rel="stylesheet" type="text/css" href="style.css" media="screen" />    
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+  
+  <center>
+  <font size="1" face="Verdana" color="white">
+  <h1>Search the Star Wars API</h1>
+  <h2>May the force be with you!</h2>
+      
+  <!-- search form -->    
+  <form class="search-form">
+    <div class="form-group">
+          
+      <input type="text" id="search-query" class="form-control"></input>
+      <button class="btn btn-primary search">Search</button>
+      <select id="search-category">
+        <option value="people">people</option>
+        <option value="starships">starships</option>
+      </select>
+          
+    </div>
+  </form>
+
+  <div class="results row"></div>
+      
+  </center>
+  
+  <script src="script.js">
+</script>
+
+</body>
+</html>
