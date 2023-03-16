@@ -12,6 +12,7 @@ html body {
 	  font-size: 15px;
     color: white;
   
+
     text-shadow:
     /* Outline */
     -1px -1px 0 #000000,
@@ -22,6 +23,4 @@ html body {
     2px 0 0 #000000,
     0 2px 0 #000000,
     0 -2px 0 #000000; /* Terminate with semi-colon */
-}
-   
 }
