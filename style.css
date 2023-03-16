@@ -1,26 +1,21 @@
-html body {
-    background-image: url("https://wallpapercave.com/wp/wp3978707.jpg");
-    height: 500px;
-    background-position: top;
-    background-color: #000000;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;    margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
-    padding: 30px;
-	  font: Tahoma, Geneva, sans-serif;
-	  font-size: 15px;
-    color: white;
-  
+body {
+  background-image: url('https://wallpapercave.com/wp/wp3978707.jpg');
+  height: 500px;
+  background-position: top;
+  background-color: #000000;
+  background-repeat: no-repeat;
+  background-size: cover;
+  backgrounf-position: absolute;
+  position: relative;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 30px;
+  font: Tahoma, Geneva, sans-serif;
+  font-size: 15px;
+  color: white;
 
-    text-shadow:
-    /* Outline */
-    -1px -1px 0 #000000,
-    1px -1px 0 #000000,
-    -1px 1px 0 #000000,
-    1px 1px 0 #000000,  
-    -2px 0 0 #000000,
-    2px 0 0 #000000,
-    0 2px 0 #000000,
-    0 -2px 0 #000000; /* Terminate with semi-colon */
+  text-shadow:
+    /* Outline */ -1px -1px 0 #000000, 1px -1px 0 #000000,
+    -1px 1px 0 #000000, 1px 1px 0 #000000, -2px 0 0 #000000, 2px 0 0 #000000,
+    0 2px 0 #000000, 0 -2px 0 #000000;
 }
